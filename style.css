@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,rgba(255, 195, 18,1.0) 70%,white 30%);
+}
+.top_nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+}
+.s_icon i:first-child{
+    background: rgba(238, 90, 36,1.0) ;
+    color: white;
+    padding: 6px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.s_icon i{
+    color: rgb(4, 0, 0);
+    padding: 6px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin: 0px 5px;
+}
+.s_icon i:hover{
+    background: rgba(238, 90, 36,1.0) ;
+    color: white;
+    padding: 6px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.navmenu{
+    display: flex;
+    gap: 5px;
+}
+.navmenu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+#hover{
+    background:  rgba(238, 90, 36,1.0) ;
+    color: white;
+}
+.navmenu li a:hover{
+  background: rgba(238, 90, 36,1.0) ;
+  color: white;
+  transition: 0.4s;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 70px;
+}
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+    text-align: right;
+}
+.left h1{
+    font-size: 5rem;
+}
+.left h1 span{
+    background: rgba(238, 90, 36,1.0) ;
+    color: white;
+    padding: 0px 15px;
+    border-radius: 10px;
+}
+.left p{
+    margin: 30px 0px;
+    line-height: 2rem;
+}
+.left button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: rgba(238, 90, 36,1.0) ;
+    color: white;
+    border-radius: 10px;
+}
+#btn2{
+    padding: 10px 20px;
+    border: 1px solid black;
+    outline: none;
+    background:transparent ;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    border-radius: 10px;
+}
